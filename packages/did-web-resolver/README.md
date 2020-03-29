@@ -11,21 +11,17 @@ npm run start
 - [local](http://localhost:5010/did-web/us-central1/main/api/docs/static/index.html)
 - [remote](https://did-web.web.app/api/docs/static/index.html)
 
-### Resolve a DID
+### Resolve a DID Web
 
-http://localhost:5010/did-web/us-central1/main/api/dids/did:key:z6MkpTHR8VNsBxYAAWHut2Geadd9jSwuBV8xRoAnwWsdvktH
+- https://did-web.web.app/api/v1/identifiers/did:web:did.actor:alice
 
-```
-curl -X POST http://localhost:5010/did-web/us-central1/main/api/dids/test -d '{"key1":"value1", "key2":"value2"}'
-curl -X POST https://did-web.web.app/api/dids/test -d '{"key1":"value1", "key2":"value2"}'
+- http://localhost:5010/did-web/us-central1/main/api/v1/identifiers/did:web:did.actor:alice
 
-curl -X POST http://localhost:5010/did-web/us-central1/main/api/dids/test  -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json"
-```
 
 ### Set your Firebase Config
 
 ```
-npx firebase functions:config:set did_key=$(node -e "console.log(JSON.stringify(require('./.runtimeconfig.json').did_key))")
+npx firebase functions:config:set did_web=$(node -e "console.log(JSON.stringify(require('./.runtimeconfig.json').did_web))")
 ```
 
 ### Get your Firebase Config
