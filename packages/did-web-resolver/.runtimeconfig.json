@@ -1,0 +1,6 @@
+{
+  "did_web": {
+    "env_name": "firebase_local",
+    "base_url": "https://did-web.web.app/"
+  }
+}

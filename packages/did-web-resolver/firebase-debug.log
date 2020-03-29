@@ -1,0 +1,81 @@
+[debug] [2020-03-29T18:55:49.470Z] ----------------------------------------------------------------------
+[debug] [2020-03-29T18:55:49.472Z] Command:       /Users/orie/.nvm/versions/node/v12.16.0/bin/node /Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/.bin/firebase serve --only functions --port 5010
+[debug] [2020-03-29T18:55:49.472Z] CLI Version:   7.16.1
+[debug] [2020-03-29T18:55:49.472Z] Platform:      darwin
+[debug] [2020-03-29T18:55:49.472Z] Node Version:  v12.16.0
+[debug] [2020-03-29T18:55:49.473Z] Time:          Sun Mar 29 2020 13:55:49 GMT-0500 (Central Daylight Time)
+[debug] [2020-03-29T18:55:49.473Z] ----------------------------------------------------------------------
+[debug] [2020-03-29T18:55:49.473Z] 
+[debug] [2020-03-29T18:55:49.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-29T18:55:49.479Z] > authorizing via signed-in user
+[debug] [2020-03-29T18:55:49.479Z] [iam] checking project did-web for permissions ["firebase.projects.get"]
+[debug] [2020-03-29T18:55:49.481Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/did-web:testIamPermissions  
+
+[debug] [2020-03-29T18:55:49.708Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-29T18:55:49.709Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/did-web  
+ 
+[debug] [2020-03-29T18:55:49.911Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "10" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5010
+[info] i  functions: Watching "/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver" for Cloud Functions...
+[debug] [2020-03-29T18:55:49.938Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-03-29T18:55:49.938Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-03-29T18:55:49.939Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-03-29T18:55:49.939Z] [worker-~diagnostic~-50945b87-9987-470d-a3b7-6ebf455ab623]: Assigning socketPath: /var/folders/5_/h988xfb97k3cjfn2lwz99kk40000gn/T/fire_emu_78429.sock
+[debug] [2020-03-29T18:55:49.939Z] [worker-~diagnostic~-50945b87-9987-470d-a3b7-6ebf455ab623]: BUSY
+[debug] [2020-03-29T18:55:50.133Z] [runtime-status] [78429] Functions runtime initialized. {"cwd":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver","node_version":"12.16.0"}
+[debug] [2020-03-29T18:55:50.133Z] [runtime-status] [78429] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-29T18:55:50.134Z] [runtime-status] [78429] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-29T18:55:50.135Z] [runtime-status] [78429] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.5.0","resolution":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-29T18:55:50.135Z] [runtime-status] [78429] Found local functions config: /Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/.runtimeconfig.json
+[debug] [2020-03-29T18:55:50.136Z] [runtime-status] [78429] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.5.0","resolution":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[main]: http function initialized (http://localhost:5010/did-web/us-central1/main).
+[debug] [2020-03-29T18:55:50.246Z] [worker-~diagnostic~-50945b87-9987-470d-a3b7-6ebf455ab623]: IDLE
+[debug] [2020-03-29T18:56:14.299Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-29T18:56:14.299Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-29T18:56:14.299Z] Accepted request GET /did-web/us-central1/main//api/v1/identifiers/did:web:did.actor:alice --> main
+[debug] [2020-03-29T18:56:14.304Z] [worker-pool] addWorker(main)
+[debug] [2020-03-29T18:56:14.305Z] [worker-pool] Adding worker with key main, total=1
+[debug] [2020-03-29T18:56:14.305Z] [worker-pool] submitWork(triggerId=main)
+[debug] [2020-03-29T18:56:14.305Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: Assigning socketPath: /var/folders/5_/h988xfb97k3cjfn2lwz99kk40000gn/T/fire_emu_78445.sock
+[debug] [2020-03-29T18:56:14.305Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: BUSY
+[debug] [2020-03-29T18:56:14.529Z] [runtime-status] [78445] Functions runtime initialized. {"cwd":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver","node_version":"12.16.0"}
+[debug] [2020-03-29T18:56:14.531Z] [runtime-status] [78445] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-03-29T18:56:14.532Z] [runtime-status] [78445] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-03-29T18:56:14.533Z] [runtime-status] [78445] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.5.0","resolution":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-29T18:56:14.533Z] [runtime-status] [78445] Found local functions config: /Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/.runtimeconfig.json
+[debug] [2020-03-29T18:56:14.534Z] [runtime-status] [78445] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.5.0","resolution":"/Users/orie/Desktop/Code/Transmute/did-web/packages/did-web-resolver/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-03-29T18:56:14.652Z] [runtime-status] [78445] Trigger "main" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "main"
+[debug] [2020-03-29T18:56:14.652Z] [runtime-status] [78445] triggerDefinition {"httpsTrigger":{},"name":"main","entryPoint":"main"}
+[debug] [2020-03-29T18:56:14.652Z] [runtime-status] [78445] Running main in mode HTTPS
+[debug] [2020-03-29T18:56:14.655Z] [runtime-status] [78445] Attempting to listen to socketPath: /var/folders/5_/h988xfb97k3cjfn2lwz99kk40000gn/T/fire_emu_78445.sock
+[debug] [2020-03-29T18:56:14.659Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-29T18:56:14.666Z] [runtime-status] [78445] Ephemeral server handling GET request
+[debug] [2020-03-29T18:56:14.672Z] [runtime-status] [78445] Ephemeral server survived.
+[info] i  functions: Finished "main" in ~1s
+[debug] [2020-03-29T18:56:14.745Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: IDLE
+[debug] [2020-03-29T18:56:14.746Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-03-29T18:57:08.754Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-03-29T18:57:08.754Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-03-29T18:57:08.754Z] Accepted request GET /did-web/us-central1/main/api/v1/identifiers/did:web:did.actor:alice --> main
+[debug] [2020-03-29T18:57:08.754Z] [worker-pool] submitWork(triggerId=main)
+[debug] [2020-03-29T18:57:08.754Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: Assigning socketPath: /var/folders/5_/h988xfb97k3cjfn2lwz99kk40000gn/T/fire_emu_78445.sock
+[debug] [2020-03-29T18:57:08.754Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: BUSY
+[debug] [2020-03-29T18:57:08.755Z] [runtime-status] [78445] Trigger "main" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "main"
+[debug] [2020-03-29T18:57:08.755Z] [runtime-status] [78445] triggerDefinition {"httpsTrigger":{},"name":"main","entryPoint":"main"}
+[debug] [2020-03-29T18:57:08.755Z] [runtime-status] [78445] Running main in mode HTTPS
+[debug] [2020-03-29T18:57:08.755Z] [runtime-status] [78445] Attempting to listen to socketPath: /var/folders/5_/h988xfb97k3cjfn2lwz99kk40000gn/T/fire_emu_78445.sock
+[debug] [2020-03-29T18:57:08.756Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-29T18:57:08.759Z] [runtime-status] [78445] Ephemeral server handling GET request
+[debug] [2020-03-29T18:57:08.760Z] [runtime-status] [78445] Ephemeral server survived.
+[info] i  functions: Finished "main" in ~1s
+[debug] [2020-03-29T18:57:08.760Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: IDLE
+[debug] [2020-03-29T18:57:08.760Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] Shutting down...
+[info] Shutting down...
+[debug] [2020-03-29T19:02:26.065Z] [worker-~diagnostic~-50945b87-9987-470d-a3b7-6ebf455ab623]: exited
+[debug] [2020-03-29T19:02:26.065Z] [worker-~diagnostic~-50945b87-9987-470d-a3b7-6ebf455ab623]: FINISHED
+[debug] [2020-03-29T19:02:26.066Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: exited
+[debug] [2020-03-29T19:02:26.066Z] [worker-main-9176353c-b82f-437b-a858-656319b2acb0]: FINISHED
