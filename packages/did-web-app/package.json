@@ -14,7 +14,7 @@
     "history": "^4.10.1",
     "material-table": "^1.54.1",
     "node-fetch": "^2.6.0",
-    "node-forge": "^0.9.1",
+    "node-forge": "^0.10.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-ace": "^6.3.2",
